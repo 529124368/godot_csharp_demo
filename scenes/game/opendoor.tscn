@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=2]
 
-[ext_resource path="res://script/loading.cs" type="Script" id=1]
+[ext_resource path="res://script/UI/loading.cs" type="Script" id=1]
 [ext_resource path="res://assets/UI_loading/0000.bmp" type="Texture" id=2]
 [ext_resource path="res://assets/UI_loading/0001.bmp" type="Texture" id=3]
 [ext_resource path="res://assets/UI_loading/0002.bmp" type="Texture" id=4]

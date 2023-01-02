@@ -68,7 +68,7 @@ radius = 9.0
 material = SubResource( 2 )
 position = Vector2( 3.5, -15 )
 frames = SubResource( 4 )
-frame = 17
+frame = 10
 playing = true
 
 [node name="Sprite" type="Sprite" parent="."]
@@ -80,7 +80,7 @@ offset = Vector2( -25, -81 )
 material = SubResource( 2 )
 position = Vector2( 2.5, 2 )
 frames = SubResource( 3 )
-frame = 13
+frame = 6
 playing = true
 
 [node name="shadow" type="Sprite" parent="."]

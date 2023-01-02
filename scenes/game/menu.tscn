@@ -12,7 +12,7 @@
 [ext_resource path="res://assets/Ui_menu/login6.png" type="Texture" id=10]
 [ext_resource path="res://assets/Ui_menu/login11.png" type="Texture" id=11]
 [ext_resource path="res://assets/Ui_menu/login10.png" type="Texture" id=12]
-[ext_resource path="res://script/selectScence.cs" type="Script" id=13]
+[ext_resource path="res://script/UI/selectScence.cs" type="Script" id=13]
 [ext_resource path="res://assets/audio/Act0-Intro.mp3" type="AudioStream" id=18]
 [ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_11.png" type="Texture" id=31]
 [ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_4.png" type="Texture" id=32]
@@ -132,11 +132,11 @@ script = ExtResource( 13 )
 [node name="left_logo" type="AnimatedSprite" parent="CanvasLayer"]
 position = Vector2( 309, 83 )
 frames = SubResource( 4 )
-frame = 11
+frame = 3
 playing = true
 
 [node name="right_logo" type="AnimatedSprite" parent="CanvasLayer"]
 position = Vector2( 492, 87 )
 frames = SubResource( 5 )
-frame = 4
+frame = 8
 playing = true

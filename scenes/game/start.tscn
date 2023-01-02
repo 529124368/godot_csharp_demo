@@ -15,7 +15,7 @@
 [ext_resource path="res://assets/UI_start/MP.png" type="Texture" id=13]
 [ext_resource path="res://assets/UI_start/HP.png" type="Texture" id=14]
 [ext_resource path="res://assets/UI_start/skill_btn.png" type="Texture" id=15]
-[ext_resource path="res://script/minipanel.cs" type="Script" id=16]
+[ext_resource path="res://script/UI/minibar.cs" type="Script" id=16]
 [ext_resource path="res://assets/UI_start/0002.bmp" type="Texture" id=17]
 [ext_resource path="res://assets/audio/town1.wav" type="AudioStream" id=18]
 [ext_resource path="res://assets/UI_start/0003.bmp" type="Texture" id=19]
@@ -43,8 +43,8 @@
 [ext_resource path="res://assets/UI_start/frame08.png" type="Texture" id=41]
 [ext_resource path="res://assets/UI_start/0011.bmp" type="Texture" id=42]
 [ext_resource path="res://assets/UI_start/0010.bmp" type="Texture" id=43]
-[ext_resource path="res://script/minipanel2.cs" type="Script" id=44]
-[ext_resource path="res://script/minibar.cs" type="Script" id=45]
+[ext_resource path="res://script/UI/minipanel2.cs" type="Script" id=44]
+[ext_resource path="res://script/UI/minipanel.cs" type="Script" id=45]
 [ext_resource path="res://assets/UI_start/close_minipanel_down.png" type="Texture" id=46]
 [ext_resource path="res://assets/UI_start/close_minipanel_btn.png" type="Texture" id=47]
 [ext_resource path="res://script/player.cs" type="Script" id=48]
@@ -572,7 +572,7 @@ margin_right = 522.0
 margin_bottom = 587.0
 texture_normal = ExtResource( 17 )
 texture_pressed = ExtResource( 19 )
-script = ExtResource( 16 )
+script = ExtResource( 45 )
 
 [node name="minipanel2" type="TextureButton" parent="CanvasLayer/menu"]
 visible = false
@@ -639,7 +639,7 @@ margin_left = 5.0
 margin_top = 7.0
 margin_right = 45.0
 margin_bottom = 47.0
-script = ExtResource( 45 )
+script = ExtResource( 16 )
 
 [node name="minibar" type="TextureRect" parent="CanvasLayer/minibar"]
 margin_left = 316.0
@@ -727,6 +727,9 @@ tile_data = PoolIntArray( -1179660, 6, 0, -1179659, 6, 0, -1179658, 6, 0, -11796
 
 [node name="Player" parent="TileMap" instance=ExtResource( 2 )]
 script = ExtResource( 48 )
+direction = 10
+timer_attack = 0.05
+timer_run = 0.1
 
 [node name="monster" parent="TileMap" instance=ExtResource( 67 )]
 position = Vector2( 305, 375.972 )
