@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class minipanel : TextureButton
+public partial class minipanel : TextureButton
 {
     public override void _Pressed()
     {

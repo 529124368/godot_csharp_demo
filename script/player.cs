@@ -1,8 +1,9 @@
 
 using diablo2.script.common;
 using Godot;
-using Newtonsoft.Json.Linq;
+using System;
 using System.Text;
+using JsonType = Godot.Collections.Dictionary<string, Godot.Collections.Dictionary<string, Godot.Collections.Dictionary<string, float>>>;
 
 enum State
 {
@@ -10,7 +11,7 @@ enum State
     idle, run,attack
 }
 
-public class player : Area2D
+public partial class player : Area2D
 {
 
     [Export(PropertyHint.Range, "0,14")]
@@ -22,7 +23,7 @@ public class player : Area2D
     [Export]
     private float timer_run = 0.2f;
     [Export]
-    private float timer_flg = 0.2f;
+    private double timer_flg = 0.2;
     [Export]
     private float move_speed = 100.0f;
     [Export]
@@ -30,18 +31,17 @@ public class player : Area2D
     [Export]
     private float shadow_offset_y = 0.0f;
     private State state, currenState;
-    private JObject json_data = null;
-    private Resource img_asset = null;
+    private JsonType json_data;
+    private Resource img_asset;
     private bool is_block = false;
     private int currentSprite = 0;
-    private float TIMER_TICK = 0.0f;
+    private double TIMER_TICK =0.0;
     // 站立 跑步 攻击 ->帧数
-    private int[] step_nums = { 16, 8, 15};
+    private int[] step_nums = new int[] { 16, 8, 15 };
     //
-    private Sprite selfSprite;
-    private Sprite selfShadow;
-    //
-    private StringBuilder stringBox = new StringBuilder();
+    private Sprite2D selfSprite;
+    private Sprite2D selfShadow;
+    private StringBuilder stringBox = new();
 
 
     //初始化
@@ -49,27 +49,35 @@ public class player : Area2D
     {
         currenState = state = State.run;
         //加载资源
-        load_assets("man/ba");
+        try
+        {
+            load_assets("man/ba");
+        }
+        catch (Exception e)
+        {
+            GD.Print(e);
+        }
+
         //获取节点
-        selfSprite =  GetNode<Sprite>("Sprite");
-        selfShadow = GetNode<Sprite>("shadow");
+        selfSprite = GetNode<Sprite2D>("Sprite2D");
+        selfShadow = GetNode<Sprite2D>("shadow");
     }
 
 
     //update
-    public override void _Process(float delta)
+    public override void _Process(double delta)
     {
         TIMER_TICK += delta;
-        if(TIMER_TICK > timer_flg)
+        if (TIMER_TICK > timer_flg)
         {
             currentSprite++;
             currentSprite %= step_nums[(int)state];
             render_sprite_and_shadow();
-            TIMER_TICK = 0.0f;
+            TIMER_TICK = 0.0;
         }
-        if (Input.IsMouseButtonPressed(2))
+        if (Input.IsMouseButtonPressed(MouseButton.Right))
         {
-            state = State.attack;        
+            state = State.attack;
         }
     }
 
@@ -77,14 +85,18 @@ public class player : Area2D
     public void load_assets(string fileName)
     {
         //json文件加载
-        using (File file = new File())
+        using FileAccess file = FileAccess.Open("res://assets/" + fileName + ".json", FileAccess.ModeFlags.Read);
+        string content = file.GetAsText();
+        json_data = JSON.ParseString(content).AsGodotDictionary<string,Godot.Collections.Dictionary<string, Godot.Collections.Dictionary<string,float>>>();
+        try
         {
-            file.Open("res://assets/"+fileName+ ".json", File.ModeFlags.Read);
-            string content = file.GetAsText();
-            json_data = JObject.Parse(content);
+            //图片加载
+            img_asset = ResourceLoader.Load("res://assets/" + fileName + ".png");
         }
-        //图片加载
-        img_asset = ResourceLoader.Load("res://assets/" + fileName + ".png");  
+        catch (Exception ex)
+        {
+            GD.Print(ex);
+        }
     }
 
     //渲染精灵和影子
@@ -117,8 +129,8 @@ public class player : Area2D
         selfShadow.Texture = selfSprite.Texture = AltasHelp.getInstance().get_img_by_name(img_asset, json_data, stringBox.ToString()); ;
         //偏移设置
         selfShadow.Position = selfSprite.Position =new Vector2{ 
-            x= (float)json_data[stringBox.ToString()]["spriteSourceSize"]["x"]+ (state == State.attack ?-45:0), 
-            y= (float)json_data[stringBox.ToString()]["spriteSourceSize"]["y"] + (state == State.attack ? -15 : 0)
+            x= json_data[stringBox.ToString()]["spriteSourceSize"]["x"]+ (state == State.attack ?-45:0), 
+            y= json_data[stringBox.ToString()]["spriteSourceSize"]["y"] + (state == State.attack ? -15 : 0)
         };
     }
 

@@ -1,142 +1,211 @@
-[gd_scene load_steps=41 format=2]
+[gd_scene load_steps=41 format=3 uid="uid://c874xpt0ha3nx"]
 
-[ext_resource path="res://assets/Ui_menu/login7.png" type="Texture" id=1]
-[ext_resource path="res://assets/Ui_menu/login2.png" type="Texture" id=2]
-[ext_resource path="res://assets/Ui_menu/login8.png" type="Texture" id=3]
-[ext_resource path="res://assets/Ui_menu/login9.png" type="Texture" id=4]
-[ext_resource path="res://assets/Ui_menu/login3.png" type="Texture" id=5]
-[ext_resource path="res://assets/Ui_menu/login4.png" type="Texture" id=6]
-[ext_resource path="res://assets/Ui_menu/login5.png" type="Texture" id=7]
-[ext_resource path="res://assets/Ui_menu/login1.png" type="Texture" id=8]
-[ext_resource path="res://assets/Ui_menu/login0.png" type="Texture" id=9]
-[ext_resource path="res://assets/Ui_menu/login6.png" type="Texture" id=10]
-[ext_resource path="res://assets/Ui_menu/login11.png" type="Texture" id=11]
-[ext_resource path="res://assets/Ui_menu/login10.png" type="Texture" id=12]
-[ext_resource path="res://script/UI/selectScence.cs" type="Script" id=13]
-[ext_resource path="res://assets/audio/Act0-Intro.mp3" type="AudioStream" id=18]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_11.png" type="Texture" id=31]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_4.png" type="Texture" id=32]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_6.png" type="Texture" id=33]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_2.png" type="Texture" id=34]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_7.png" type="Texture" id=35]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_9.png" type="Texture" id=36]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_0.png" type="Texture" id=37]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_3.png" type="Texture" id=38]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_5.png" type="Texture" id=39]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_1.png" type="Texture" id=40]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_8.png" type="Texture" id=41]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireLeft_10.png" type="Texture" id=42]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireRight_3.png" type="Texture" id=45]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireRight_13.png" type="Texture" id=46]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireRight_6.png" type="Texture" id=47]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireRight_8.png" type="Texture" id=48]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireRight_5.png" type="Texture" id=49]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireRight_2.png" type="Texture" id=53]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireRight_11.png" type="Texture" id=54]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireRight_4.png" type="Texture" id=58]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireRight_7.png" type="Texture" id=59]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireRight_10.png" type="Texture" id=61]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireRight_12.png" type="Texture" id=62]
-[ext_resource path="res://assets/Ui_menu/logo/logoFireRight_9.png" type="Texture" id=63]
+[ext_resource type="Texture2D" uid="uid://dkj6m04r1eqbh" path="res://assets/Ui_menu/login7.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bibv17e0ch6rj" path="res://assets/Ui_menu/login2.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://45t87qjir7tk" path="res://assets/Ui_menu/login8.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bu3o5ocihwa50" path="res://assets/Ui_menu/login9.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://pnrtl1j14idy" path="res://assets/Ui_menu/login3.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://drsjbehlpgox1" path="res://assets/Ui_menu/login4.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bvvm73d4nv5lh" path="res://assets/Ui_menu/login5.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bcs175ys55cfk" path="res://assets/Ui_menu/login1.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bmbt0j035to6a" path="res://assets/Ui_menu/login0.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://nwvsn2lbnpd4" path="res://assets/Ui_menu/login6.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://drkx57a7w6vom" path="res://assets/Ui_menu/login11.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bccfpmv2d0r21" path="res://assets/Ui_menu/login10.png" id="12"]
+[ext_resource type="Script" path="res://script/UI/selectScence.cs" id="13"]
+[ext_resource type="AudioStream" uid="uid://ch6xcp2a57ydn" path="res://assets/audio/Act0-Intro.mp3" id="18"]
+[ext_resource type="Texture2D" uid="uid://sdv4iikc74xb" path="res://assets/Ui_menu/logo/logoFireLeft_11.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cqbqc7dib7yjc" path="res://assets/Ui_menu/logo/logoFireLeft_4.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://b775wjslwaslf" path="res://assets/Ui_menu/logo/logoFireLeft_6.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://bnid28cyuh76l" path="res://assets/Ui_menu/logo/logoFireLeft_2.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bfbnjl1dxebn5" path="res://assets/Ui_menu/logo/logoFireLeft_7.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://band2ke3t7wdm" path="res://assets/Ui_menu/logo/logoFireLeft_9.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dlx4r4uflchug" path="res://assets/Ui_menu/logo/logoFireLeft_0.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://d4kjsox5eu8dn" path="res://assets/Ui_menu/logo/logoFireLeft_3.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://b7nhqstg22y5a" path="res://assets/Ui_menu/logo/logoFireLeft_5.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://d3uwww52laeo4" path="res://assets/Ui_menu/logo/logoFireLeft_1.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://p13wdtowbdth" path="res://assets/Ui_menu/logo/logoFireLeft_8.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://b5ps8c50uis3d" path="res://assets/Ui_menu/logo/logoFireLeft_10.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://cjr34slmynlu4" path="res://assets/Ui_menu/logo/logoFireRight_3.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bbdkabikx05tu" path="res://assets/Ui_menu/logo/logoFireRight_13.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://lv17rdv08ueo" path="res://assets/Ui_menu/logo/logoFireRight_6.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://c7q163vuihc1c" path="res://assets/Ui_menu/logo/logoFireRight_8.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://csfwislrrych6" path="res://assets/Ui_menu/logo/logoFireRight_5.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://dtw10n2mmi7p1" path="res://assets/Ui_menu/logo/logoFireRight_2.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://cjmurkgrk4iek" path="res://assets/Ui_menu/logo/logoFireRight_11.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://plxeysltgwuh" path="res://assets/Ui_menu/logo/logoFireRight_4.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://ba4bo8vtxawjv" path="res://assets/Ui_menu/logo/logoFireRight_7.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://bghp24k2pqjkq" path="res://assets/Ui_menu/logo/logoFireRight_10.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://cd125unbfkqlo" path="res://assets/Ui_menu/logo/logoFireRight_12.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://jqhgpevqas8o" path="res://assets/Ui_menu/logo/logoFireRight_9.png" id="63"]
 
-[sub_resource type="SpriteFrames" id=4]
-animations = [ {
-"frames": [ ExtResource( 37 ), ExtResource( 40 ), ExtResource( 34 ), ExtResource( 38 ), ExtResource( 32 ), ExtResource( 39 ), ExtResource( 33 ), ExtResource( 35 ), ExtResource( 41 ), ExtResource( 36 ), ExtResource( 42 ), ExtResource( 31 ) ],
+[sub_resource type="SpriteFrames" id="4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}],
 "loop": true,
-"name": "default",
+"name": &"default",
 "speed": 18.0
-} ]
+}]
 
-[sub_resource type="SpriteFrames" id=5]
-animations = [ {
-"frames": [ ExtResource( 53 ), ExtResource( 45 ), ExtResource( 58 ), ExtResource( 49 ), ExtResource( 47 ), ExtResource( 59 ), ExtResource( 48 ), ExtResource( 63 ), ExtResource( 61 ), ExtResource( 54 ), ExtResource( 62 ), ExtResource( 46 ) ],
+[sub_resource type="SpriteFrames" id="5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}],
 "loop": true,
-"name": "default",
+"name": &"default",
 "speed": 18.0
-} ]
+}]
 
 [node name="Game" type="Node2D"]
-__meta__ = {
-"_edit_vertical_guides_": [ -176.0 ]
-}
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-position = Vector2( 0, -2 )
-stream = ExtResource( 18 )
+position = Vector2(0, -2)
+stream = ExtResource("18")
 autoplay = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Control" type="Control" parent="CanvasLayer"]
-margin_left = -84.0
-margin_right = 652.0
-margin_bottom = 598.0
-rect_scale = Vector2( 1.20341, 0.996412 )
+layout_mode = 3
+anchors_preset = 0
+offset_left = -84.0
+offset_right = 652.0
+offset_bottom = 598.0
+scale = Vector2(1.20341, 0.996412)
 
-[node name="Login0" type="Sprite" parent="CanvasLayer/Control"]
-position = Vector2( 129, 128 )
-texture = ExtResource( 9 )
+[node name="Login0" type="Sprite2D" parent="CanvasLayer/Control"]
+position = Vector2(129, 128)
+texture = ExtResource("9")
 
-[node name="Login1" type="Sprite" parent="CanvasLayer/Control"]
-position = Vector2( 385, 128 )
-texture = ExtResource( 8 )
+[node name="Login1" type="Sprite2D" parent="CanvasLayer/Control"]
+position = Vector2(385, 128)
+texture = ExtResource("8")
 
-[node name="Login2" type="Sprite" parent="CanvasLayer/Control"]
-position = Vector2( 641, 128 )
-texture = ExtResource( 2 )
+[node name="Login2" type="Sprite2D" parent="CanvasLayer/Control"]
+position = Vector2(641, 128)
+texture = ExtResource("2")
 
-[node name="Login3" type="Sprite" parent="CanvasLayer/Control"]
-position = Vector2( 897, 128 )
-texture = ExtResource( 5 )
+[node name="Login3" type="Sprite2D" parent="CanvasLayer/Control"]
+position = Vector2(897, 128)
+texture = ExtResource("5")
 
-[node name="Login8" type="Sprite" parent="CanvasLayer/Control"]
-position = Vector2( 129, 472 )
-texture = ExtResource( 3 )
+[node name="Login8" type="Sprite2D" parent="CanvasLayer/Control"]
+position = Vector2(129, 472)
+texture = ExtResource("3")
 
-[node name="Login9" type="Sprite" parent="CanvasLayer/Control"]
-position = Vector2( 385, 472 )
-texture = ExtResource( 4 )
+[node name="Login9" type="Sprite2D" parent="CanvasLayer/Control"]
+position = Vector2(385, 472)
+texture = ExtResource("4")
 
-[node name="Login10" type="Sprite" parent="CanvasLayer/Control"]
-position = Vector2( 641, 472 )
-texture = ExtResource( 12 )
+[node name="Login10" type="Sprite2D" parent="CanvasLayer/Control"]
+position = Vector2(641, 472)
+texture = ExtResource("12")
 
-[node name="Login4" type="Sprite" parent="CanvasLayer/Control"]
-position = Vector2( 129, 384 )
-texture = ExtResource( 6 )
+[node name="Login4" type="Sprite2D" parent="CanvasLayer/Control"]
+position = Vector2(129, 384)
+texture = ExtResource("6")
 
-[node name="Login5" type="Sprite" parent="CanvasLayer/Control"]
-position = Vector2( 385, 384 )
-texture = ExtResource( 7 )
+[node name="Login5" type="Sprite2D" parent="CanvasLayer/Control"]
+position = Vector2(385, 384)
+texture = ExtResource("7")
 
-[node name="Login6" type="Sprite" parent="CanvasLayer/Control"]
-position = Vector2( 641, 384 )
-texture = ExtResource( 10 )
+[node name="Login6" type="Sprite2D" parent="CanvasLayer/Control"]
+position = Vector2(641, 384)
+texture = ExtResource("10")
 
-[node name="Login7" type="Sprite" parent="CanvasLayer/Control"]
-position = Vector2( 897, 384 )
-texture = ExtResource( 1 )
+[node name="Login7" type="Sprite2D" parent="CanvasLayer/Control"]
+position = Vector2(897, 384)
+texture = ExtResource("1")
 
-[node name="Login11" type="Sprite" parent="CanvasLayer/Control"]
-position = Vector2( 897, 472 )
-texture = ExtResource( 11 )
+[node name="Login11" type="Sprite2D" parent="CanvasLayer/Control"]
+position = Vector2(897, 472)
+texture = ExtResource("11")
 
 [node name="TextureButton" type="TextureButton" parent="CanvasLayer"]
-margin_left = 299.0
-margin_top = 170.0
-margin_right = 339.0
-margin_bottom = 210.0
-rect_scale = Vector2( 9.71872, 2.93616 )
-script = ExtResource( 13 )
+offset_left = 299.0
+offset_top = 170.0
+offset_right = 339.0
+offset_bottom = 210.0
+scale = Vector2(9.71872, 2.93616)
+script = ExtResource("13")
 
-[node name="left_logo" type="AnimatedSprite" parent="CanvasLayer"]
-position = Vector2( 309, 83 )
-frames = SubResource( 4 )
-frame = 3
+[node name="left_logo" type="AnimatedSprite2D" parent="CanvasLayer"]
+position = Vector2(309, 83)
+frames = SubResource("4")
 playing = true
 
-[node name="right_logo" type="AnimatedSprite" parent="CanvasLayer"]
-position = Vector2( 492, 87 )
-frames = SubResource( 5 )
-frame = 8
+[node name="right_logo" type="AnimatedSprite2D" parent="CanvasLayer"]
+position = Vector2(492, 87)
+frames = SubResource("5")
 playing = true

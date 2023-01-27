@@ -1,9 +1,9 @@
-﻿using Godot;
-using Newtonsoft.Json.Linq;
-using System.Drawing;
+using Godot;
+using JsonType = Godot.Collections.Dictionary<string, Godot.Collections.Dictionary<string, Godot.Collections.Dictionary<string, float>>>;
 
 namespace diablo2.script.common
 {
+    
     internal class AltasHelp
     {
         private static AltasHelp my = null;
@@ -16,11 +16,11 @@ namespace diablo2.script.common
             return my;
         }
 
-        public AtlasTexture get_img_by_name(Resource tx, JObject jsonData,string imgName)
+        public AtlasTexture get_img_by_name(Resource tx, JsonType jsonData,string imgName)
         {
             AtlasTexture tool = new AtlasTexture
             {
-                Atlas = tx as Texture
+                Atlas = tx as Texture2D
             };
             Vector2 v2,size;
             v2.x = (float)jsonData[imgName]["frame"]["x"];

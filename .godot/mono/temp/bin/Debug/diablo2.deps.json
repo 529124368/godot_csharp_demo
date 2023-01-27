@@ -1,0 +1,85 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "diablo2/1.0.0": {
+        "dependencies": {
+          "Godot.SourceGenerators": "4.0.0-beta.15",
+          "GodotSharp": "4.0.0-beta.15",
+          "GodotSharpEditor": "4.0.0-beta.15",
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "diablo2.dll": {}
+        }
+      },
+      "Godot.SourceGenerators/4.0.0-beta.15": {},
+      "GodotSharp/4.0.0-beta.15": {
+        "runtime": {
+          "lib/net6.0/GodotSharp.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "GodotSharpEditor/4.0.0-beta.15": {
+        "dependencies": {
+          "GodotSharp": "4.0.0-beta.15"
+        },
+        "runtime": {
+          "lib/net6.0/GodotSharpEditor.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "diablo2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Godot.SourceGenerators/4.0.0-beta.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9oSSrEz0Yjo4b+JUJmV85PnC1t7Jlp72Zh6aD+ScSMxJxqWBJeGwbYftdeFn5elto5TMkPQxGi1KaKkWAl1Xiw==",
+      "path": "godot.sourcegenerators/4.0.0-beta.15",
+      "hashPath": "godot.sourcegenerators.4.0.0-beta.15.nupkg.sha512"
+    },
+    "GodotSharp/4.0.0-beta.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iY4y/NwyclgSKgo0HQAypRRP5oABSSgOIOi/QGtM7Ls1i4ZNbs+P24SPedi6G7w8Y8BISBR4LZwa76IgNXSuSw==",
+      "path": "godotsharp/4.0.0-beta.15",
+      "hashPath": "godotsharp.4.0.0-beta.15.nupkg.sha512"
+    },
+    "GodotSharpEditor/4.0.0-beta.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3MrS/AfkKWUhQF3HfN6vbsNKMWKPxPB/aLMMz1degJFZtGQUqegE8Ny+/A6+JU0lZK8ppPO5kwYI2db6g/b8Q==",
+      "path": "godotsharpeditor/4.0.0-beta.15",
+      "hashPath": "godotsharpeditor.4.0.0-beta.15.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    }
+  }
+}

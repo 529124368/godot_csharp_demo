@@ -1,13 +1,13 @@
 using Godot;
 using System;
 
-public class minibar : Control
+public partial class minibar : Control
 {
     [Signal]
-    public delegate void  move_mini_panel_to_left();
+    public delegate void move_mini_panel_to_leftEventHandler();
 
     [Signal]
-    public delegate void move_mini_panel_to_right();
+    public delegate void move_mini_panel_to_rightEventHandler();
 
     private double offset;
     private Control rightSide;
@@ -20,69 +20,69 @@ public class minibar : Control
 
         leftSide = GetNode<Control>("../leftSide");
     }
-    public void _on_TextureButton2_pressed() {
-        Vector2 v2 = RectPosition;
+    public void _on_textureButton2_pressed() {
+        Vector2 v2 = Position;
         //显示装备栏
         if (rightSide.Visible)
         {
             rightSide.Visible = false;
             //移动minibar位置
             v2.x += (float)offset;
-            RectPosition = v2;
-            EmitSignal("move_mini_panel_to_right");
+            Position = v2;
+            EmitSignal("move_mini_panel_to_rightEventHandler");
         }
         else
         {
             rightSide.Visible = true;
             //移动minibar位置
             v2.x -= (float)offset;
-            RectPosition = v2;
-            EmitSignal("move_mini_panel_to_left");
+            Position = v2;
+            EmitSignal("move_mini_panel_to_leftEventHandler");
         }
     }
 
-    public void _on_TextureButton_pressed()
+    public void _on_textureButton_pressed()
     {
-        Vector2 v2 = RectPosition;
+        Vector2 v2 = Position;
         //显示装备栏
         if (leftSide.Visible)
         {
             leftSide.Visible = false;
             //移动minibar位置
             v2.x -= (float)offset;
-            RectPosition = v2;
-            EmitSignal("move_mini_panel_to_left");
+            Position = v2;
+            EmitSignal("move_mini_panel_to_leftEventHandler");
         }
         else
         {
             leftSide.Visible = true;
             //移动minibar位置
             v2.x += (float)offset;
-            RectPosition = v2;
-            EmitSignal("move_mini_panel_to_right");
+            Position = v2;
+            EmitSignal("move_mini_panel_to_rightEventHandler");
         }
     }
 
     public void _on_closeleft_pressed()
     {
-        Vector2 v2 = RectPosition;
-        EmitSignal("move_mini_panel_to_left");
+        Vector2 v2 = Position;
+        EmitSignal("move_mini_panel_to_leftEventHandler");
         //显示装备栏
         //移动minibar位置
         v2.x -=(float) offset;
-        RectPosition = v2;
+        Position = v2;
         leftSide.Visible = false;
     }
 
 
     public void _on_closeright_pressed()
     {
-        Vector2 v2 = RectPosition;
-        EmitSignal("move_mini_panel_to_right");
+        Vector2 v2 = Position;
+        EmitSignal("move_mini_panel_to_rightEventHandler");
         //显示装备栏
         //移动minibar位置
         v2.x += (float)offset;
-        RectPosition = v2;
+        Position = v2;
         rightSide.Visible = false;
     }
 }

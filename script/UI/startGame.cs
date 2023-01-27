@@ -1,11 +1,11 @@
 using Godot;
 
-public class startGame : TextureButton
+public partial class startGame : TextureButton
 {
 
     public override void _Pressed()
     {
-        GetTree().ChangeScene("res://scenes/game/opendoor.tscn");
+        GetTree().ChangeSceneToFile("res://scenes/game/opendoor.tscn");
     }
 
 }

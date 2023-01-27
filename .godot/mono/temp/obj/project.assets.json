@@ -1,0 +1,218 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Godot.SourceGenerators/4.0.0-beta.15": {
+        "type": "package",
+        "build": {
+          "build/Godot.SourceGenerators.props": {}
+        }
+      },
+      "GodotSharp/4.0.0-beta.15": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/GodotSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/GodotSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "GodotSharpEditor/4.0.0-beta.15": {
+        "type": "package",
+        "dependencies": {
+          "GodotSharp": "4.0.0-beta.15"
+        },
+        "compile": {
+          "lib/net6.0/GodotSharpEditor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/GodotSharpEditor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Godot.SourceGenerators/4.0.0-beta.15": {
+      "sha512": "9oSSrEz0Yjo4b+JUJmV85PnC1t7Jlp72Zh6aD+ScSMxJxqWBJeGwbYftdeFn5elto5TMkPQxGi1KaKkWAl1Xiw==",
+      "type": "package",
+      "path": "godot.sourcegenerators/4.0.0-beta.15",
+      "files": [
+        ".nupkg.metadata",
+        "analyzers/dotnet/cs/Godot.SourceGenerators.dll",
+        "build/Godot.SourceGenerators.props",
+        "godot.sourcegenerators.4.0.0-beta.15.nupkg.sha512",
+        "godot.sourcegenerators.nuspec"
+      ]
+    },
+    "GodotSharp/4.0.0-beta.15": {
+      "sha512": "iY4y/NwyclgSKgo0HQAypRRP5oABSSgOIOi/QGtM7Ls1i4ZNbs+P24SPedi6G7w8Y8BISBR4LZwa76IgNXSuSw==",
+      "type": "package",
+      "path": "godotsharp/4.0.0-beta.15",
+      "files": [
+        ".nupkg.metadata",
+        "godotsharp.4.0.0-beta.15.nupkg.sha512",
+        "godotsharp.nuspec",
+        "lib/net6.0/GodotSharp.dll",
+        "lib/net6.0/GodotSharp.xml"
+      ]
+    },
+    "GodotSharpEditor/4.0.0-beta.15": {
+      "sha512": "h3MrS/AfkKWUhQF3HfN6vbsNKMWKPxPB/aLMMz1degJFZtGQUqegE8Ny+/A6+JU0lZK8ppPO5kwYI2db6g/b8Q==",
+      "type": "package",
+      "path": "godotsharpeditor/4.0.0-beta.15",
+      "files": [
+        ".nupkg.metadata",
+        "godotsharpeditor.4.0.0-beta.15.nupkg.sha512",
+        "godotsharpeditor.nuspec",
+        "lib/net6.0/GodotSharpEditor.dll",
+        "lib/net6.0/GodotSharpEditor.xml"
+      ]
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "sha512": "R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Godot.SourceGenerators >= 4.0.0-beta.15",
+      "GodotSharp >= 4.0.0-beta.15",
+      "GodotSharpEditor >= 4.0.0-beta.15",
+      "Newtonsoft.Json >= 13.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
+    "E:\\VS022share\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\rust_diablo2-master\\godot\\diablo2.csproj",
+      "projectName": "diablo2",
+      "projectPath": "E:\\rust_diablo2-master\\godot\\diablo2.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "E:\\rust_diablo2-master\\godot\\.godot\\mono\\temp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+        "E:\\VS022share\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\Administrator\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packages.stride3d.net/nuget": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6",
+        "dependencies": {
+          "Godot.SourceGenerators": {
+            "target": "Package",
+            "version": "[4.0.0-beta.15, )"
+          },
+          "GodotSharp": {
+            "target": "Package",
+            "version": "[4.0.0-beta.15, )"
+          },
+          "GodotSharpEditor": {
+            "target": "Package",
+            "version": "[4.0.0-beta.15, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

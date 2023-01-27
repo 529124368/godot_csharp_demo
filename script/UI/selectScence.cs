@@ -1,10 +1,10 @@
-﻿using Godot;
+using Godot;
 
 
-public class selectScence: TextureButton
+public partial class selectScence: TextureButton
 {
     public override void _Pressed()
     {
-        GetTree().ChangeScene("res://scenes/game/selectRole.tscn");
+        GetTree().ChangeSceneToFile("res://scenes/game/selectRole.tscn");
     }
 }

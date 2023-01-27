@@ -1,194 +1,278 @@
-[gd_scene load_steps=46 format=2]
+[gd_scene load_steps=46 format=3 uid="uid://dgtopp06yx01y"]
 
-[ext_resource path="res://assets/UI_select/0011.bmp" type="Texture" id=1]
-[ext_resource path="res://assets/UI_select/0009.bmp" type="Texture" id=2]
-[ext_resource path="res://assets/UI_select/0010.bmp" type="Texture" id=3]
-[ext_resource path="res://assets/UI_select/0000.bmp" type="Texture" id=4]
-[ext_resource path="res://assets/UI_select/0004.bmp" type="Texture" id=5]
-[ext_resource path="res://assets/UI_select/0001.bmp" type="Texture" id=6]
-[ext_resource path="res://assets/UI_select/0005.bmp" type="Texture" id=7]
-[ext_resource path="res://assets/UI_select/0007.bmp" type="Texture" id=8]
-[ext_resource path="res://assets/UI_select/0008.bmp" type="Texture" id=9]
-[ext_resource path="res://assets/UI_select/0006.bmp" type="Texture" id=10]
-[ext_resource path="res://assets/UI_select/0002.bmp" type="Texture" id=11]
-[ext_resource path="res://assets/UI_select/0003.bmp" type="Texture" id=12]
-[ext_resource path="res://script/UI/startGame.cs" type="Script" id=13]
-[ext_resource path="res://assets/UI_select/ba/0012.bmp" type="Texture" id=14]
-[ext_resource path="res://assets/UI_select/ba/0001.bmp" type="Texture" id=15]
-[ext_resource path="res://assets/UI_select/ba/0013.bmp" type="Texture" id=16]
-[ext_resource path="res://assets/UI_select/ba/0009.bmp" type="Texture" id=17]
-[ext_resource path="res://assets/audio/town1.wav" type="AudioStream" id=18]
-[ext_resource path="res://assets/UI_select/ba/0011.bmp" type="Texture" id=19]
-[ext_resource path="res://assets/UI_select/ba/0000.bmp" type="Texture" id=20]
-[ext_resource path="res://assets/UI_select/ba/0003.bmp" type="Texture" id=21]
-[ext_resource path="res://assets/UI_select/ba/0006.bmp" type="Texture" id=22]
-[ext_resource path="res://assets/UI_select/ba/0004.bmp" type="Texture" id=23]
-[ext_resource path="res://assets/UI_select/ba/0015.bmp" type="Texture" id=24]
-[ext_resource path="res://assets/UI_select/ba/0002.bmp" type="Texture" id=25]
-[ext_resource path="res://assets/UI_select/ba/0010.bmp" type="Texture" id=26]
-[ext_resource path="res://assets/UI_select/ba/0014.bmp" type="Texture" id=27]
-[ext_resource path="res://assets/UI_select/ba/0005.bmp" type="Texture" id=28]
-[ext_resource path="res://assets/UI_select/ba/0008.bmp" type="Texture" id=29]
-[ext_resource path="res://assets/UI_select/fire/fire_0.png" type="Texture" id=30]
-[ext_resource path="res://assets/UI_select/fire/fire_2.png" type="Texture" id=31]
-[ext_resource path="res://assets/UI_select/fire/fire_7.png" type="Texture" id=32]
-[ext_resource path="res://assets/UI_select/fire/fire_8.png" type="Texture" id=33]
-[ext_resource path="res://assets/UI_select/fire/fire_3.png" type="Texture" id=34]
-[ext_resource path="res://assets/UI_select/fire/fire_9.png" type="Texture" id=35]
-[ext_resource path="res://assets/UI_select/fire/fire_6.png" type="Texture" id=36]
-[ext_resource path="res://assets/UI_select/fire/fire_5.png" type="Texture" id=37]
-[ext_resource path="res://assets/UI_select/fire/fire_4.png" type="Texture" id=38]
-[ext_resource path="res://assets/UI_select/fire/fire_1.png" type="Texture" id=39]
-[ext_resource path="res://assets/button/0001.bmp" type="Texture" id=40]
-[ext_resource path="res://assets/button/0000.bmp" type="Texture" id=41]
-[ext_resource path="res://assets/UI_select/ba/0007.bmp" type="Texture" id=42]
+[ext_resource type="Texture2D" uid="uid://cqsnurefemx0w" path="res://assets/UI_select/0011.bmp" id="1"]
+[ext_resource type="Texture2D" uid="uid://dix3ut42iexb0" path="res://assets/UI_select/0009.bmp" id="2"]
+[ext_resource type="Texture2D" uid="uid://d3sk3y2gakycg" path="res://assets/UI_select/0010.bmp" id="3"]
+[ext_resource type="Texture2D" uid="uid://dcq5yyl4k8o2m" path="res://assets/UI_select/0000.bmp" id="4"]
+[ext_resource type="Texture2D" uid="uid://c4q1lape73kyt" path="res://assets/UI_select/0004.bmp" id="5"]
+[ext_resource type="Texture2D" uid="uid://kbakfevmgrhx" path="res://assets/UI_select/0001.bmp" id="6"]
+[ext_resource type="Texture2D" uid="uid://cipho5mwyh0mq" path="res://assets/UI_select/0005.bmp" id="7"]
+[ext_resource type="Texture2D" uid="uid://bkkua5mljv1lo" path="res://assets/UI_select/0007.bmp" id="8"]
+[ext_resource type="Texture2D" uid="uid://sa0o0q6gs8yo" path="res://assets/UI_select/0008.bmp" id="9"]
+[ext_resource type="Texture2D" uid="uid://du4wcfiv0vdlc" path="res://assets/UI_select/0006.bmp" id="10"]
+[ext_resource type="Texture2D" uid="uid://bp4wx8qmallce" path="res://assets/UI_select/0002.bmp" id="11"]
+[ext_resource type="Texture2D" uid="uid://blk2po2tt8imw" path="res://assets/UI_select/0003.bmp" id="12"]
+[ext_resource type="Script" path="res://script/UI/startGame.cs" id="13"]
+[ext_resource type="Texture2D" uid="uid://bycmc8tvk4vql" path="res://assets/UI_select/ba/0012.bmp" id="14"]
+[ext_resource type="Texture2D" uid="uid://dii32bkuj26cf" path="res://assets/UI_select/ba/0001.bmp" id="15"]
+[ext_resource type="Texture2D" uid="uid://b6ofscnu4kovy" path="res://assets/UI_select/ba/0013.bmp" id="16"]
+[ext_resource type="Texture2D" uid="uid://brkp6fb06jtw" path="res://assets/UI_select/ba/0009.bmp" id="17"]
+[ext_resource type="AudioStream" uid="uid://iqdhjtfvdfx4" path="res://assets/audio/town1.wav" id="18"]
+[ext_resource type="Texture2D" uid="uid://b1ok1a72gj7xy" path="res://assets/UI_select/ba/0011.bmp" id="19"]
+[ext_resource type="Texture2D" uid="uid://cmiatfpx2wwv7" path="res://assets/UI_select/ba/0000.bmp" id="20"]
+[ext_resource type="Texture2D" uid="uid://cl68sf620gi0p" path="res://assets/UI_select/ba/0003.bmp" id="21"]
+[ext_resource type="Texture2D" uid="uid://c7ayh6rhya6yj" path="res://assets/UI_select/ba/0006.bmp" id="22"]
+[ext_resource type="Texture2D" uid="uid://ddmnrlygpknnu" path="res://assets/UI_select/ba/0004.bmp" id="23"]
+[ext_resource type="Texture2D" uid="uid://gcsaohh7gnah" path="res://assets/UI_select/ba/0015.bmp" id="24"]
+[ext_resource type="Texture2D" uid="uid://cvhohpnhvo27h" path="res://assets/UI_select/ba/0002.bmp" id="25"]
+[ext_resource type="Texture2D" uid="uid://cec73iuw1n3em" path="res://assets/UI_select/ba/0010.bmp" id="26"]
+[ext_resource type="Texture2D" uid="uid://b8btfulo5dhfv" path="res://assets/UI_select/ba/0014.bmp" id="27"]
+[ext_resource type="Texture2D" uid="uid://dkbikr1dsetkd" path="res://assets/UI_select/ba/0005.bmp" id="28"]
+[ext_resource type="Texture2D" uid="uid://dxbxepw5kda1a" path="res://assets/UI_select/ba/0008.bmp" id="29"]
+[ext_resource type="Texture2D" uid="uid://cxriif78aodrj" path="res://assets/UI_select/fire/fire_0.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://c1wpf3o0wdo8v" path="res://assets/UI_select/fire/fire_2.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://iedq8twu0r5n" path="res://assets/UI_select/fire/fire_7.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bdyg0eqnb8oyg" path="res://assets/UI_select/fire/fire_8.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://bq5mv4npv4fgd" path="res://assets/UI_select/fire/fire_3.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://cjbaq0qqesl3h" path="res://assets/UI_select/fire/fire_9.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://bhml1neqjmq0x" path="res://assets/UI_select/fire/fire_6.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://d4f5njal1ecdy" path="res://assets/UI_select/fire/fire_5.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bor0mcemsloj5" path="res://assets/UI_select/fire/fire_4.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://3mtg5hl74rgw" path="res://assets/UI_select/fire/fire_1.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://csb2t6x1dl1tt" path="res://assets/button/0001.bmp" id="40"]
+[ext_resource type="Texture2D" uid="uid://cyjfp6wau0wbg" path="res://assets/button/0000.bmp" id="41"]
+[ext_resource type="Texture2D" uid="uid://c23s756k4t0mq" path="res://assets/UI_select/ba/0007.bmp" id="42"]
 
-[sub_resource type="SpriteFrames" id=2]
-animations = [ {
-"frames": [ ExtResource( 20 ), ExtResource( 15 ), ExtResource( 25 ), ExtResource( 21 ), ExtResource( 23 ), ExtResource( 28 ), ExtResource( 22 ), ExtResource( 42 ), ExtResource( 29 ), ExtResource( 17 ), ExtResource( 26 ), ExtResource( 19 ), ExtResource( 14 ), ExtResource( 16 ), ExtResource( 27 ), ExtResource( 24 ) ],
+[sub_resource type="SpriteFrames" id="2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}],
 "loop": true,
-"name": "default",
+"name": &"default",
 "speed": 10.0
-} ]
+}]
 
-[sub_resource type="CanvasItemMaterial" id=3]
+[sub_resource type="CanvasItemMaterial" id="3"]
 blend_mode = 1
 
-[sub_resource type="SpriteFrames" id=4]
-animations = [ {
-"frames": [ ExtResource( 30 ), ExtResource( 39 ), ExtResource( 31 ), ExtResource( 34 ), ExtResource( 38 ), ExtResource( 37 ), ExtResource( 36 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 35 ) ],
+[sub_resource type="SpriteFrames" id="4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}],
 "loop": true,
-"name": "default",
+"name": &"default",
 "speed": 15.0
-} ]
+}]
 
 [node name="Game" type="Node2D"]
-__meta__ = {
-"_edit_vertical_guides_": [ -176.0 ]
-}
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-position = Vector2( 0, -2 )
-stream = ExtResource( 18 )
+position = Vector2(0, -2)
+stream = ExtResource("18")
 autoplay = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Control" type="Control" parent="CanvasLayer"]
-margin_left = -68.0
-margin_right = 654.0
-margin_bottom = 605.0
-rect_scale = Vector2( 1.20341, 0.996412 )
+layout_mode = 3
+anchors_preset = 0
+offset_left = -68.0
+offset_right = 654.0
+offset_bottom = 605.0
+scale = Vector2(1.20341, 0.996412)
 
 [node name="00" type="TextureRect" parent="CanvasLayer/Control"]
-margin_right = 40.0
-margin_bottom = 40.0
-texture = ExtResource( 4 )
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("4")
 
 [node name="01" type="TextureRect" parent="CanvasLayer/Control"]
-margin_left = 256.0
-margin_right = 512.0
-margin_bottom = 256.0
-texture = ExtResource( 6 )
+layout_mode = 0
+offset_left = 256.0
+offset_right = 512.0
+offset_bottom = 256.0
+texture = ExtResource("6")
 
 [node name="02" type="TextureRect" parent="CanvasLayer/Control"]
-margin_left = 512.0
-margin_right = 768.0
-margin_bottom = 256.0
-texture = ExtResource( 11 )
+layout_mode = 0
+offset_left = 512.0
+offset_right = 768.0
+offset_bottom = 256.0
+texture = ExtResource("11")
 
 [node name="03" type="TextureRect" parent="CanvasLayer/Control"]
-margin_left = 768.0
-margin_right = 1024.0
-margin_bottom = 256.0
-texture = ExtResource( 12 )
+layout_mode = 0
+offset_left = 768.0
+offset_right = 1024.0
+offset_bottom = 256.0
+texture = ExtResource("12")
 
 [node name="04" type="TextureRect" parent="CanvasLayer/Control"]
-margin_top = 256.0
-margin_right = 256.0
-margin_bottom = 512.0
-texture = ExtResource( 5 )
+layout_mode = 0
+offset_top = 256.0
+offset_right = 256.0
+offset_bottom = 512.0
+texture = ExtResource("5")
 
 [node name="05" type="TextureRect" parent="CanvasLayer/Control"]
-margin_left = 256.0
-margin_top = 256.0
-margin_right = 512.0
-margin_bottom = 512.0
-texture = ExtResource( 7 )
+layout_mode = 0
+offset_left = 256.0
+offset_top = 256.0
+offset_right = 512.0
+offset_bottom = 512.0
+texture = ExtResource("7")
 
 [node name="06" type="TextureRect" parent="CanvasLayer/Control"]
-margin_left = 512.0
-margin_top = 256.0
-margin_right = 768.0
-margin_bottom = 512.0
-texture = ExtResource( 10 )
+layout_mode = 0
+offset_left = 512.0
+offset_top = 256.0
+offset_right = 768.0
+offset_bottom = 512.0
+texture = ExtResource("10")
 
 [node name="07" type="TextureRect" parent="CanvasLayer/Control"]
-margin_left = 768.0
-margin_top = 256.0
-margin_right = 1024.0
-margin_bottom = 512.0
-texture = ExtResource( 8 )
+layout_mode = 0
+offset_left = 768.0
+offset_top = 256.0
+offset_right = 1024.0
+offset_bottom = 512.0
+texture = ExtResource("8")
 
 [node name="08" type="TextureRect" parent="CanvasLayer/Control"]
-margin_top = 512.0
-margin_right = 256.0
-margin_bottom = 768.0
-texture = ExtResource( 9 )
+layout_mode = 0
+offset_top = 512.0
+offset_right = 256.0
+offset_bottom = 768.0
+texture = ExtResource("9")
 
 [node name="09" type="TextureRect" parent="CanvasLayer/Control"]
-margin_left = 256.0
-margin_top = 512.0
-margin_right = 512.0
-margin_bottom = 768.0
-texture = ExtResource( 2 )
+layout_mode = 0
+offset_left = 256.0
+offset_top = 512.0
+offset_right = 512.0
+offset_bottom = 768.0
+texture = ExtResource("2")
 
 [node name="10" type="TextureRect" parent="CanvasLayer/Control"]
-margin_left = 512.0
-margin_top = 512.0
-margin_right = 768.0
-margin_bottom = 768.0
-texture = ExtResource( 3 )
+layout_mode = 0
+offset_left = 512.0
+offset_top = 512.0
+offset_right = 768.0
+offset_bottom = 768.0
+texture = ExtResource("3")
 
 [node name="11" type="TextureRect" parent="CanvasLayer/Control"]
-margin_left = 768.0
-margin_top = 512.0
-margin_right = 1024.0
-margin_bottom = 768.0
-texture = ExtResource( 1 )
+layout_mode = 0
+offset_left = 768.0
+offset_top = 512.0
+offset_right = 1024.0
+offset_bottom = 768.0
+texture = ExtResource("1")
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="CanvasLayer"]
-position = Vector2( 403, 309 )
-frames = SubResource( 2 )
-frame = 4
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CanvasLayer"]
+position = Vector2(403, 309)
+frames = SubResource("2")
 playing = true
 
-[node name="AnimatedSprite2" type="AnimatedSprite" parent="CanvasLayer"]
-material = SubResource( 3 )
-position = Vector2( 403, 384 )
-frames = SubResource( 4 )
-frame = 7
+[node name="AnimatedSprite2" type="AnimatedSprite2D" parent="CanvasLayer"]
+material = SubResource("3")
+position = Vector2(403, 384)
+frames = SubResource("4")
 playing = true
 
 [node name="TextureButton" type="TextureButton" parent="CanvasLayer"]
-margin_left = 612.0
-margin_top = 482.0
-margin_right = 708.0
-margin_bottom = 522.0
-texture_normal = ExtResource( 41 )
-texture_pressed = ExtResource( 40 )
-script = ExtResource( 13 )
-__meta__ = {
-"_editor_description_": ""
-}
+offset_left = 612.0
+offset_top = 482.0
+offset_right = 708.0
+offset_bottom = 522.0
+texture_normal = ExtResource("41")
+texture_pressed = ExtResource("40")
+script = ExtResource("13")
 
 [node name="Label" type="Label" parent="CanvasLayer/TextureButton"]
-modulate = Color( 0, 0, 0, 1 )
-self_modulate = Color( 0.121569, 0.105882, 0.105882, 1 )
-margin_left = 18.0
-margin_top = 8.0
-margin_right = 56.0
-margin_bottom = 22.0
-rect_scale = Vector2( 1.49542, 1.38144 )
+modulate = Color(0, 0, 0, 1)
+self_modulate = Color(0.121569, 0.105882, 0.105882, 1)
+layout_mode = 0
+offset_left = 18.0
+offset_top = 8.0
+offset_right = 56.0
+offset_bottom = 22.0
+scale = Vector2(1.49542, 1.38144)
 text = "start"
-align = 1

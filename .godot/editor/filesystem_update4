@@ -1,0 +1,4 @@
+res://scenes/game/start.tscn
+res://scenes/game/tilemaps.tres
+res://assets/man/ba.json
+res://scenes/Player.tscn

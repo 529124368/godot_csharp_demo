@@ -1,0 +1,12 @@
+E:\rust_diablo2-master\godot\.godot\mono\temp\obj\Debug\diablo2.csproj.AssemblyReference.cache
+E:\rust_diablo2-master\godot\.godot\mono\temp\obj\Debug\diablo2.GeneratedMSBuildEditorConfig.editorconfig
+E:\rust_diablo2-master\godot\.godot\mono\temp\obj\Debug\diablo2.AssemblyInfoInputs.cache
+E:\rust_diablo2-master\godot\.godot\mono\temp\obj\Debug\diablo2.AssemblyInfo.cs
+E:\rust_diablo2-master\godot\.godot\mono\temp\obj\Debug\diablo2.csproj.CoreCompileInputs.cache
+E:\rust_diablo2-master\godot\.godot\mono\temp\bin\Debug\diablo2.deps.json
+E:\rust_diablo2-master\godot\.godot\mono\temp\bin\Debug\diablo2.dll
+E:\rust_diablo2-master\godot\.godot\mono\temp\bin\Debug\diablo2.pdb
+E:\rust_diablo2-master\godot\.godot\mono\temp\obj\Debug\diablo2.dll
+E:\rust_diablo2-master\godot\.godot\mono\temp\obj\Debug\refint\diablo2.dll
+E:\rust_diablo2-master\godot\.godot\mono\temp\obj\Debug\diablo2.pdb
+E:\rust_diablo2-master\godot\.godot\mono\temp\obj\Debug\ref\diablo2.dll
